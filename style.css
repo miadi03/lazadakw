@@ -1,0 +1,115 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+	font-family: 'poppins', sans-serif;
+}
+/*#f5f5f5*/
+
+/*awal header*/
+
+.header .container span{
+	font-size: 13px;
+}
+.header .container span:hover{
+	color: orangered !important;
+}
+.container.pt-2 input{
+	background-color: #eff0f5;
+	padding: 11px 19px;
+	border: none;
+	width: 60%;
+	margin-left: 70px;
+	border-radius: 2px;
+}
+.container.pt-2 input:focus{
+	outline: none;
+}
+.wrap-icon-s {
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+  border-radius: 2px;
+  width: 48px;
+  height: 41px;
+  left: 823px;
+  transform: translateY(-110%);
+  display: flex;
+}
+
+/*akhir header*/
+
+
+/*awal style carousel*/
+.carousel-indicators button {
+  width: 10px!important;
+  height: 10px!important;
+  border-radius: 50%!important; /* Mengubah bentuk menjadi bulat */
+  background-color: #fff; /* Warna latar belakang */
+  margin: 0 15px; /* Membuat jarak antar bulat */
+  cursor: pointer;
+}
+
+
+/* Mengatur style untuk indicator aktif */
+.carousel-indicators .active {
+  background-color: white; /* Warna latar belakang saat aktif */
+}
+
+/*akhir style carousel*/
+
+.col-2 button, .col-2 li a{
+	font-size: 12px;
+	color: grey;
+}
+.col-2 button{
+	border: 0;
+	transition: .10s ease;
+	outline: none;
+}
+.col-2 button:hover{
+	color: orangered;
+}
+ .col-2 li a:hover{
+ 	color: orangered;
+	border: 0;
+	transition: .10s ease;
+	outline: none;
+}
+.col-2 button, .col-2 li a:focus{
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+.btn-group ul{
+	position: relative;
+	margin-left: 300px;
+
+}
+.icon{
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+/*hover card*/
+.card.mt-2:hover,.card.bg-light:hover,.col.bg-white.pt-3:hover{
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.col-2.pt-2:hover,
+.col-3.d-flex.flex-columns:hover{
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stopwatch {
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+
+.garis:hover{
+	text-decoration: underline ;
+	transition: smooth;
+}
+
+
+
