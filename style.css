@@ -112,4 +112,32 @@ body{
 }
 
 
+.toast {
+  position: relative;
+  display: inline-block;
+}
+
+.toast .btn-close {
+  position: absolute;
+  top: 0;
+  left: 1100px;
+  right: 0;
+  z-index: 2;
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+  background-color: transparent; /* Warna latar belakang tombol close */
+  border: none;
+  color: white!important; /* Warna teks tombol close */
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.toast .btn-close:hover {
+  background-color:  white;/* Warna latar belakang tombol close saat hover */
+}
+
+.toast img {
+  width: 1130px;
+  height: 80px;
+}
 
